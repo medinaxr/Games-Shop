@@ -1,0 +1,121 @@
+.cabecalho {
+    display: flex;
+    background-color: #182c61;
+    color: #ecf0f1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.cabecalho__titulo {
+    font-family: 'Bungee', cursive;
+}
+
+.cabecalho__info {
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho__info__links {
+    font-family: 'Roboto', sans-serif;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.corpo {
+    margin: 1.5% 5%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.corpo__imagem {
+    width: 50%;
+}
+
+.corpo__menu {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.corpo__menu__subtitulo {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+.corpo__menu__logos img{
+    height: 24px;
+}
+
+.subtitulo {
+    margin: 2% 5%;
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+.contato {
+    display: flex;
+    margin: 1.5% 5%;
+    justify-content: space-between;
+}
+
+.comunicacao {
+    display: flex;
+    flex-direction: column;
+}
+
+.comunicacao__subtitulo {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+.comunicacao__form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.comunicacao__form input{
+    padding: 2%;
+}
+
+.comunicacao__form__botao {
+    height: 30px;
+    background-color: #182c61;
+    color: #ecf0f1;
+}
+
+.acompanhe {
+    display: flex;
+    flex-direction: column;
+}
+
+.acompanhe__subtitulo {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+.regulando img{
+    height: 24px;
+}
+
+.endereco {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.endereco__subtitulo {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+.rodape {
+    text-align: center;
+    background-color: #182c61;
+    color: #ecf0f1;
+    padding: 10px;
+}
